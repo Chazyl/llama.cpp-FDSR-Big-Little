@@ -3,6 +3,8 @@
 #include "ggml-impl.h"
 #include "gguf.h"
 
+// Quantization support: Integration with ggml_quantize_chunk for handling quantized tensors during loading.
+
 #include <cinttypes>
 #include <cstddef>
 #include <cstdint>
